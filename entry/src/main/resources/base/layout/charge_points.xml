@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+    <DirectionalLayout
+        ohos:height="51vp"
+        ohos:width="match_parent"
+        ohos:background_element="#ffffff"
+        ohos:orientation="horizontal">
+        <!--返回箭头-->
+        <Image
+            ohos:height="30vp"
+            ohos:width="0vp"
+            ohos:id="$+id:back"
+            ohos:weight="0.5"
+            ohos:top_margin="10vp"
+            ohos:scale_mode="inside"
+            ohos:left_margin="10vp"
+            ohos:image_src="$media:back"/>
+        <DirectionalLayout
+            ohos:height="50vp"
+            ohos:width="0vp"
+            ohos:weight="5"
+            ohos:orientation="vertical">
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:layout_alignment="center"
+                ohos:text_size="22vp"
+                ohos:text_color="#ffffff"
+                ohos:top_margin="12vp"
+                />
+        </DirectionalLayout>
+    </DirectionalLayout>
+    <Image
+        ohos:height="75vp"
+        ohos:width="75vp"
+        ohos:image_src="$media:chargepoints"
+        ohos:layout_alignment="horizontal_center"
+        ohos:top_margin="20vp"
+        ohos:scale_mode="stretch"/>
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="我的积分"
+        ohos:text_size="15fp"
+        ohos:top_margin="5vp"
+        ohos:layout_alignment="horizontal_center"/>
+
+
+        <Text
+            ohos:height="100vp"
+            ohos:width="match_content"
+            ohos:id="$+id:current_points"
+            ohos:layout_alignment="horizontal_center"
+            ohos:top_margin="10vp"
+            ohos:text_color="black"
+            ohos:text_size="30fp"/>
+
+
+
+    <Button
+        ohos:id="$+id:charge_award"
+        ohos:height="60vp"
+        ohos:width="240vp"
+        ohos:top_margin="150vp"
+        ohos:text_alignment="center"
+        ohos:text_size="20fp"
+        ohos:text_color="#ffffff"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="兑换积分"
+        ohos:background_element="#107c41"
+        />
+
+    <Button
+        ohos:id="$+id:charge_points"
+        ohos:height="60vp"
+        ohos:width="240vp"
+        ohos:top_margin="15vp"
+        ohos:text_alignment="center"
+        ohos:text_size="20fp"
+        ohos:text_color="#107c41"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="获取积分"
+        ohos:background_element="#ffffff"
+        />
+
+
+</DirectionalLayout>

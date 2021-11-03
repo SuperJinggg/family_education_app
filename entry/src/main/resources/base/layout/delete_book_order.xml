@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="#cfcfcf"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:height="100vp"
+        ohos:width="match_parent"
+        ohos:orientation="vertical">
+        <DirectionalLayout
+            ohos:height="51vp"
+            ohos:width="match_parent"
+            ohos:background_element="#11cd6e"
+            ohos:orientation="horizontal">
+            <!--返回箭头-->
+            <Image
+                ohos:height="30vp"
+                ohos:width="0vp"
+                ohos:id="$+id:back"
+                ohos:weight="0.5"
+                ohos:top_margin="10vp"
+                ohos:scale_mode="inside"
+                ohos:left_margin="10vp"
+                ohos:image_src="$media:back"/>
+            <DirectionalLayout
+                ohos:height="50vp"
+                ohos:width="0vp"
+                ohos:weight="5"
+                ohos:orientation="vertical">
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:layout_alignment="center"
+                    ohos:text_size="22vp"
+                    ohos:text_color="#ffffff"
+                    ohos:top_margin="12vp"
+                    ohos:text="取消订单"/>
+            </DirectionalLayout>
+        </DirectionalLayout>
+        <DirectionalLayout
+            ohos:height="50vp"
+            ohos:width="match_parent"
+            ohos:orientation="horizontal"
+            ohos:background_element="#ffffff">
+            <Text
+                ohos:height="match_parent"
+                ohos:width="0vp"
+                ohos:weight="1"
+                ohos:text="书名"
+                ohos:text_size="15fp"
+                ohos:left_padding="10vp"
+                ohos:top_padding="15vp"
+                ohos:text_alignment="left"/>
+            <Text
+                ohos:id="$+id:delete_book_name"
+                ohos:height="match_parent"
+                ohos:width="0vp"
+                ohos:weight="1"
+                ohos:text_size="15fp"
+                ohos:right_padding="20vp"
+                ohos:top_padding="15vp"
+                ohos:text_alignment="right"/>
+        </DirectionalLayout>
+    </DirectionalLayout>
+
+    <Button
+        ohos:id="$+id:delete_book"
+        ohos:height="60vp"
+        ohos:width="240vp"
+        ohos:top_margin="150vp"
+        ohos:text_alignment="center"
+        ohos:text_size="18fp"
+        ohos:text_color="#ffffff"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="删除订单"
+        ohos:background_element="#ff3e3e"
+
+        />
+
+</DirectionalLayout>

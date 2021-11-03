@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:height="51vp"
+        ohos:width="match_parent"
+        ohos:background_element="#11cd6e"
+        ohos:orientation="horizontal">
+        <!--返回箭头-->
+        <Image
+            ohos:height="30vp"
+            ohos:width="0vp"
+            ohos:id="$+id:back"
+            ohos:weight="0.5"
+            ohos:top_margin="10vp"
+            ohos:scale_mode="inside"
+            ohos:left_margin="10vp"
+            ohos:image_src="$media:back"/>
+        <DirectionalLayout
+            ohos:height="50vp"
+            ohos:width="0vp"
+            ohos:weight="5"
+            ohos:orientation="vertical">
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:layout_alignment="center"
+                ohos:text_size="22vp"
+                ohos:text_color="#ffffff"
+                ohos:top_margin="12vp"
+                ohos:text="奖学券使用"/>
+        </DirectionalLayout>
+    </DirectionalLayout>
+
+    <ListContainer
+        ohos:id="$+id:listcontainer_discount"
+        ohos:height="0vp"
+        ohos:width="match_parent"
+        ohos:weight="1"/>
+
+    <DirectionalLayout
+        ohos:height="120vp"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:background_element="black">
+
+        <Text
+            ohos:height="100vp"
+            ohos:width="80vp"
+            ohos:text="红包优惠￥"
+            ohos:text_color="#ffffff"
+            ohos:text_alignment="center"
+            ohos:layout_alignment="vertical_center"
+            ohos:text_size="15fp"
+            ohos:left_margin="20vp"/>
+
+        <Text
+            ohos:id="$+id:sure_discount_price"
+            ohos:height="100vp"
+            ohos:width="40vp"
+            ohos:left_margin="5vp"
+            ohos:text_size="20fp"
+            ohos:layout_alignment="vertical_center"
+            ohos:text_alignment="center"
+            ohos:text_color="#ffffff"/>
+        <Button
+            ohos:id="$+id:sure_discount"
+            ohos:height="match_parent"
+            ohos:width="140vp"
+            ohos:text="确认"
+            ohos:left_margin="100vp"
+            ohos:text_size="35fp"
+            ohos:background_element="#ffff00"
+            ohos:text_color="black"
+            ohos:text_alignment="center"/>
+
+    </DirectionalLayout>
+
+</DirectionalLayout>

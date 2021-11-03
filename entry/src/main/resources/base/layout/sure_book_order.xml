@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="#cfcfcf"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:height="51vp"
+        ohos:width="match_parent"
+        ohos:background_element="#11cd6e"
+        ohos:orientation="horizontal">
+        <!--返回箭头-->
+        <Image
+            ohos:height="30vp"
+            ohos:width="0vp"
+            ohos:id="$+id:back"
+            ohos:weight="0.5"
+            ohos:top_margin="10vp"
+            ohos:scale_mode="inside"
+            ohos:left_margin="10vp"
+            ohos:image_src="$media:back"/>
+        <DirectionalLayout
+            ohos:height="50vp"
+            ohos:width="0vp"
+            ohos:weight="5"
+            ohos:orientation="vertical">
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:layout_alignment="center"
+                ohos:text_size="22vp"
+                ohos:text_color="#ffffff"
+                ohos:top_margin="12vp"
+                ohos:text="提交订单"/>
+        </DirectionalLayout>
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:height="180vp"
+        ohos:width="match_parent"
+        ohos:top_margin="10vp"
+        ohos:background_element="#ffffff"
+        ohos:orientation="horizontal">
+
+        <Image
+            ohos:id="$+id:book_image"
+            ohos:height="match_parent"
+            ohos:width="0vp"
+            ohos:weight="1"
+            ohos:scale_mode="inside"
+            ohos:left_margin="10vp"/>
+
+        <DirectionalLayout
+            ohos:height="match_parent"
+            ohos:width="0vp"
+            ohos:weight="2"
+            ohos:orientation="vertical">
+
+            <Text
+                ohos:height="0vp"
+                ohos:width="match_content"
+                ohos:weight="1"
+                ohos:id="$+id:sure_book_order_name"
+                ohos:text_size="15fp"
+                ohos:text_alignment="vertical_center"
+                ohos:top_margin="5vp"
+                ohos:left_margin="10vp"
+                ohos:text_color="black"/>
+
+            <Text
+                ohos:id="$+id:sure_book_order_num"
+                ohos:height="0vp"
+                ohos:width="match_content"
+                ohos:weight="1"
+                ohos:text_size="13fp"
+                ohos:text_alignment="vertical_center"
+                ohos:bottom_margin="5vp"
+                ohos:left_margin="10vp"
+                ohos:text_color="black"/>
+
+        </DirectionalLayout>
+
+        <Text
+            ohos:id="$+id:sure_book_order_price"
+            ohos:height="match_parent"
+            ohos:width="0vp"
+            ohos:weight="1"
+            ohos:text_size="20fp"
+            ohos:text_alignment="right"
+            ohos:top_margin="60vp"
+            ohos:right_margin="10vp"
+            ohos:text_color="black"/>
+
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:height="50vp"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:background_element="#ffffff"
+        ohos:top_margin="20vp">
+        <Image
+            ohos:height="40vp"
+            ohos:width="0vp"
+            ohos:weight="0.5"
+            ohos:layout_alignment="vertical_center"
+            ohos:scale_mode="inside"
+            ohos:image_src="$media:discountforbook"/>
+
+        <Text
+            ohos:height="match_parent"
+            ohos:width="0vp"
+            ohos:weight="1"
+            ohos:text="抵用券"
+            ohos:text_alignment="vertical_center"
+            ohos:left_margin="10vp"
+            ohos:text_size="18fp"
+            ohos:text_color="black"/>
+
+        <Text
+            ohos:id="$+id:discount_num"
+            ohos:height="match_parent"
+            ohos:width="0vp"
+            ohos:weight="1"
+            ohos:text_size="18fp"
+            ohos:text_alignment="right"
+            ohos:text_color="#cfcfcf"/>
+
+        <Image
+            ohos:id="$+id:in"
+            ohos:height="36vp"
+            ohos:width="0vp"
+            ohos:weight="0.5"
+            ohos:scale_mode="inside"
+            ohos:layout_alignment="vertical_center"
+            ohos:image_src="$media:rightarrow"/>
+
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:height="100vp"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:background_element="black"
+        ohos:top_margin="120vp">
+
+        <Text
+            ohos:height="60vp"
+            ohos:width="40vp"
+            ohos:text="￥"
+            ohos:text_size="15fp"
+            ohos:layout_alignment="vertical_center"
+
+            ohos:left_margin="20vp"
+            ohos:text_color="#ffffff"/>
+
+        <Text
+            ohos:height="80vp"
+            ohos:width="100vp"
+            ohos:id="$+id:all_price"
+            ohos:text_color="#ffffff"
+            ohos:layout_alignment="vertical_center"
+
+            ohos:text_size="26fp"
+            />
+
+        <Button
+            ohos:id="$+id:submit_order"
+            ohos:height="match_parent"
+            ohos:width="150vp"
+            ohos:text="提交订单"
+            ohos:text_color="black"
+            ohos:text_size="23fp"
+            ohos:text_alignment="center"
+            ohos:left_margin="70vp"
+            ohos:background_element="#ffff00"/>
+
+    </DirectionalLayout>
+
+</DirectionalLayout>

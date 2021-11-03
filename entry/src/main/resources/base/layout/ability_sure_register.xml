@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:layout_alignment="horizontal_center"
+        ohos:top_margin="100vp"
+        ohos:text="注册成功"
+        ohos:text_size="35fp"/>
+
+
+    <Button
+        ohos:id="$+id:sure_register"
+        ohos:height="96vp"
+        ohos:width="120fp"
+        ohos:background_element="#80c342"
+        ohos:text="确定"
+        ohos:text_color="black"
+        ohos:top_margin="15vp"
+        ohos:text_size="20fp"
+
+        ohos:text_alignment="center"
+        ohos:layout_alignment="horizontal_center"/>
+
+
+</DirectionalLayout>

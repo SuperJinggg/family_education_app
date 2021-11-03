@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+    <DirectionalLayout
+        ohos:height="51vp"
+        ohos:width="match_parent"
+        ohos:background_element="#11cd6e"
+        ohos:orientation="horizontal">
+        <Image
+            ohos:id="$+id:back"
+            ohos:height="30vp"
+            ohos:width="0vp"
+            ohos:weight="0.5"
+            ohos:top_margin="10vp"
+            ohos:left_margin="10vp"
+            ohos:image_src="$media:back"
+            ohos:scale_mode="inside"/>
+        <DirectionalLayout
+            ohos:height="50vp"
+            ohos:width="0vp"
+            ohos:weight="5"
+            ohos:orientation="vertical">
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:layout_alignment="center"
+                ohos:text_size="20fp"
+                ohos:text_color="#ffffff"
+                ohos:top_margin="14vp"
+                ohos:right_margin="17vp"
+                ohos:text="我的评价"/>
+        </DirectionalLayout>
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:height="50vp"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:background_element="#ffffff">
+
+        <Text
+            ohos:height="match_parent"
+            ohos:width="0vp"
+            ohos:weight="1"
+            ohos:text="科目"
+            ohos:text_size="15fp"
+            ohos:text_color="#cfcfcf"
+
+            ohos:text_alignment="center"/>
+
+        <Text
+            ohos:height="match_parent"
+            ohos:width="0vp"
+            ohos:text="教师名称"
+            ohos:text_size="15fp"
+            ohos:text_color="#cfcfcf"
+            ohos:weight="1"
+
+            ohos:text_alignment="center"/>
+
+    </DirectionalLayout>
+    <ListContainer
+        ohos:id="$+id:listcontainer_valuation"
+        ohos:height="0vp"
+        ohos:width="match_parent"
+        ohos:background_element="#ffffff"
+        ohos:weight="1"/>
+
+</DirectionalLayout>

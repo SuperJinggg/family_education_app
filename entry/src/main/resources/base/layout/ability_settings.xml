@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical"
+    ohos:background_element="#e8e8e8"
+    >
+    <DirectionalLayout
+        ohos:height="51vp"
+        ohos:width="match_parent"
+        ohos:background_element="#11cd6e"
+        ohos:orientation="horizontal">
+        <Image
+            ohos:id="$+id:back"
+            ohos:height="30vp"
+            ohos:width="0vp"
+            ohos:weight="0.5"
+            ohos:top_margin="10vp"
+            ohos:left_margin="10vp"
+            ohos:image_src="$media:back"
+            ohos:scale_mode="inside"/>
+        <DirectionalLayout
+            ohos:height="50vp"
+            ohos:width="0vp"
+            ohos:weight="5"
+            ohos:orientation="vertical">
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:layout_alignment="center"
+                ohos:text_size="20fp"
+                ohos:text_color="#ffffff"
+                ohos:top_margin="14vp"
+                ohos:right_margin="17vp"
+                ohos:text="设置"/>
+        </DirectionalLayout>
+    </DirectionalLayout>
+
+
+
+    <Button
+        ohos:id="$+id:go_out"
+        ohos:height="68vp"
+        ohos:width="300vp"
+        ohos:background_element="#ff3e3e"
+        ohos:text_color="#ffffff"
+        ohos:text="退出账号"
+        ohos:text_alignment="center"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text_size="30fp"
+        ohos:top_margin="50vp"/>
+
+</DirectionalLayout>

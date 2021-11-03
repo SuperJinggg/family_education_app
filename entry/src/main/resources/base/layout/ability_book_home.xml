@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:height="41vp"
+        ohos:width="match_parent"
+        ohos:background_element="#11cd6e"
+        ohos:orientation="horizontal">
+        <!--返回箭头-->
+        <Image
+            ohos:id="$+id:book_home_back_arrow"
+            ohos:height="25vp"
+            ohos:width="0vp"
+            ohos:weight="0.5"
+            ohos:top_margin="7.5vp"
+            ohos:scale_mode="inside"
+            ohos:left_margin="10vp"
+            ohos:image_src="$media:back"/>
+        <!--消息-->
+        <DirectionalLayout
+            ohos:height="40vp"
+            ohos:width="0vp"
+            ohos:weight="5"
+            ohos:orientation="vertical">
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:layout_alignment="center"
+                ohos:text="~~~ 倾心书屋 ~~~"
+                ohos:text_size="22fp"
+                ohos:text_color="#ffffff"
+                ohos:top_margin="4vp"/>
+        </DirectionalLayout>
+    </DirectionalLayout>
+    <DirectionalLayout
+        ohos:height="180vp"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        >
+        <DirectionalLayout
+            ohos:id="$+id:primary_chinese"
+            ohos:height="match_parent"
+            ohos:width="0vp"
+            ohos:weight="1"
+            ohos:orientation="vertical">
+            <Image
+                ohos:height="140vp"
+                ohos:width="match_content"
+                ohos:image_src="$media:primarychinese"
+                ohos:scale_mode="inside"
+                />
+            <Text
+                ohos:id="$+id:book_name1"
+                ohos:height="35vp"
+                ohos:width="match_content"
+                ohos:text_size="15fp"
+                ohos:multiple_lines="true"
+                ohos:text="黄冈小状元(语文)"/>
+        </DirectionalLayout>
+
+        <DirectionalLayout
+            ohos:id="$+id:primary_math"
+            ohos:height="match_parent"
+            ohos:width="0vp"
+            ohos:weight="1"
+            ohos:orientation="vertical">
+            <Image
+                ohos:height="140vp"
+                ohos:width="match_content"
+                ohos:image_src="$media:primarymath"
+                ohos:scale_mode="inside"
+                />
+            <Text
+                ohos:id="$+id:book_name2"
+                ohos:height="35vp"
+                ohos:width="match_content"
+                ohos:text_size="15fp"
+                ohos:multiple_lines="true"
+                ohos:text="黄冈小状元(数学)"/>
+
+        </DirectionalLayout>
+
+        <DirectionalLayout
+            ohos:id="$+id:primary_english"
+            ohos:height="match_parent"
+            ohos:width="0vp"
+            ohos:weight="1"
+            ohos:orientation="vertical">
+            <Image
+                ohos:height="140vp"
+                ohos:width="match_content"
+                ohos:image_src="$media:primaryenglish"
+                ohos:scale_mode="inside"
+                />
+            <Text
+                ohos:id="$+id:book_name3"
+                ohos:height="35vp"
+                ohos:width="match_content"
+                ohos:text_size="15fp"
+                ohos:multiple_lines="true"
+                ohos:text="黄冈小状元(英语)"/>
+
+        </DirectionalLayout>
+
+
+    </DirectionalLayout>
+    <DirectionalLayout
+        ohos:height="180vp"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        >
+        <DirectionalLayout
+            ohos:id="$+id:middle_math"
+            ohos:height="match_parent"
+            ohos:width="0vp"
+            ohos:weight="1"
+            ohos:orientation="vertical">
+            <Image
+                ohos:height="140vp"
+                ohos:width="match_content"
+                ohos:image_src="$media:middlemath"
+                ohos:scale_mode="inside"
+                />
+            <Text
+                ohos:id="$+id:book_name4"
+                ohos:height="35vp"
+                ohos:width="match_content"
+                ohos:text_size="15fp"
+                ohos:multiple_lines="true"
+                ohos:text="五年中考三年模拟(数学)"/>
+        </DirectionalLayout>
+
+        <DirectionalLayout
+            ohos:id="$+id:middle_english"
+            ohos:height="match_parent"
+            ohos:width="0vp"
+            ohos:weight="1"
+            ohos:orientation="vertical">
+            <Image
+                ohos:height="140vp"
+                ohos:width="match_content"
+                ohos:image_src="$media:middleenglish"
+                ohos:scale_mode="inside"
+                />
+            <Text
+                ohos:id="$+id:book_name5"
+                ohos:height="35vp"
+                ohos:width="match_content"
+                ohos:text_size="15fp"
+                ohos:multiple_lines="true"
+                ohos:text="五年中考三年模拟(英语)"/>
+
+        </DirectionalLayout>
+
+        <DirectionalLayout
+            ohos:id="$+id:high_math"
+            ohos:height="match_parent"
+            ohos:width="0vp"
+            ohos:weight="1"
+            ohos:orientation="vertical">
+            <Image
+                ohos:height="140vp"
+                ohos:width="match_content"
+                ohos:image_src="$media:highmath"
+                ohos:scale_mode="inside"
+                />
+            <Text
+                ohos:id="$+id:book_name6"
+                ohos:height="35vp"
+                ohos:width="match_content"
+                ohos:text_size="15fp"
+                ohos:multiple_lines="true"
+                ohos:text="五年高考三年模拟(数学)"/>
+
+        </DirectionalLayout>
+
+
+    </DirectionalLayout>
+    <DirectionalLayout
+        ohos:height="180vp"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        >
+        <DirectionalLayout
+            ohos:id="$+id:high_english"
+            ohos:height="match_parent"
+            ohos:width="0vp"
+            ohos:weight="1"
+            ohos:orientation="vertical">
+            <Image
+                ohos:height="140vp"
+                ohos:width="match_content"
+                ohos:image_src="$media:highenglish"
+                ohos:scale_mode="inside"
+                />
+            <Text
+                ohos:id="$+id:book_name7"
+                ohos:height="35vp"
+                ohos:width="match_content"
+                ohos:text_size="15fp"
+                ohos:multiple_lines="true"
+                ohos:text="五年高考三年模拟(英语)"/>
+        </DirectionalLayout>
+
+        <DirectionalLayout
+            ohos:id="$+id:high_physical"
+            ohos:height="match_parent"
+            ohos:width="0vp"
+            ohos:weight="1"
+            ohos:orientation="vertical">
+            <Image
+                ohos:id="$+id:high_physical_image"
+                ohos:height="140vp"
+                ohos:width="match_content"
+                ohos:image_src="$media:highphysical"
+                ohos:scale_mode="inside"
+                />
+            <Text
+                ohos:id="$+id:book_name8"
+                ohos:height="35vp"
+                ohos:width="match_content"
+                ohos:text_size="15fp"
+                ohos:multiple_lines="true"
+                ohos:text="五年高考三年模拟(物理)"/>
+
+        </DirectionalLayout>
+
+        <DirectionalLayout
+            ohos:id="$+id:high_political"
+            ohos:height="match_parent"
+            ohos:width="0vp"
+            ohos:weight="1"
+            ohos:orientation="vertical">
+            <Image
+                ohos:height="140vp"
+                ohos:width="match_content"
+                ohos:image_src="$media:highpolitical"
+                ohos:scale_mode="inside"
+                />
+            <Text
+                ohos:id="$+id:book_name9"
+                ohos:height="35vp"
+                ohos:width="match_content"
+                ohos:text_size="15fp"
+                ohos:multiple_lines="true"
+                ohos:text="五年高考三年模拟(政治)"/>
+
+        </DirectionalLayout>
+
+
+    </DirectionalLayout>
+
+
+
+
+</DirectionalLayout>

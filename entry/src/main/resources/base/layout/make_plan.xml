@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="#e8e8e8"
+    ohos:orientation="vertical">
+    <!--消息标题-->
+    <DirectionalLayout
+        ohos:height="51vp"
+        ohos:width="match_parent"
+        ohos:background_element="#11cd6e"
+        ohos:orientation="horizontal">
+        <!--返回箭头-->
+        <Image
+            ohos:id="$+id:back"
+            ohos:height="30vp"
+            ohos:width="0vp"
+            ohos:weight="0.5"
+            ohos:top_margin="10vp"
+            ohos:scale_mode="inside"
+            ohos:left_margin="10vp"
+            ohos:image_src="$media:back"/>
+        <!--消息-->
+        <DirectionalLayout
+            ohos:height="50vp"
+            ohos:width="0vp"
+            ohos:weight="5"
+            ohos:orientation="vertical">
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:layout_alignment="center"
+                ohos:text_size="22fp"
+                ohos:text_color="#ffffff"
+                ohos:top_margin="12vp"
+                ohos:text="制定计划"/>
+        </DirectionalLayout>
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:height="102vp"
+        ohos:width="match_parent"
+        ohos:top_margin="50vp"
+        ohos:orientation="vertical"
+        ohos:background_element="#ffffff">
+        <DirectionalLayout
+            ohos:height="50vp"
+            ohos:width="match_parent"
+            ohos:orientation="horizontal">
+            <Text
+                ohos:height="match_parent"
+                ohos:width="match_content"
+
+                ohos:text="起始时间"
+                ohos:text_size="15fp"
+                ohos:top_padding="15vp"
+                ohos:left_padding="10vp"
+                ohos:text_alignment="left"/>
+            <DirectionalLayout
+                ohos:height="match_parent"
+                ohos:width="match_content"
+                ohos:left_margin="100vp"
+                ohos:orientation="horizontal"
+                >
+
+                <TextField
+                    ohos:id="$+id:plan_start_time_year"
+                    ohos:height="match_parent"
+                    ohos:width="40vp"
+                    ohos:hint="输入"
+                    ohos:text_alignment="right"
+                    ohos:text_size="15fp"
+                    ohos:top_padding="15vp"
+                    />                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          "
+
+
+
+                <Text
+                    ohos:height="match_parent"
+                    ohos:width="match_content"
+                    ohos:hint="年"
+                    ohos:left_margin="5vp"
+                    ohos:text_size="15fp"
+                    ohos:top_padding="15vp"
+                    />
+
+                <TextField
+                    ohos:id="$+id:plan_start_time_moth"
+                    ohos:height="match_parent"
+                    ohos:width="30vp"
+                    ohos:hint="输入"
+                    ohos:text_alignment="right"
+                    ohos:left_margin="5vp"
+                    ohos:text_size="15fp"
+                    ohos:top_padding="15vp"
+                    />
+
+                <Text
+                    ohos:height="match_parent"
+                    ohos:width="match_content"
+                    ohos:hint="月"
+                    ohos:text_size="15fp"
+                    ohos:left_margin="5vp"
+                    ohos:top_padding="15vp"
+                    />
+
+                <TextField
+                    ohos:id="$+id:plan_start_time_day"
+                    ohos:height="match_parent"
+                    ohos:width="30vp"
+                    ohos:hint="输入"
+                    ohos:text_alignment="right"
+                    ohos:left_margin="5vp"
+                    ohos:text_size="15fp"
+                    ohos:top_padding="15vp"
+                    />
+
+                <Text
+                    ohos:height="match_parent"
+                    ohos:width="match_content"
+                    ohos:hint="日"
+                    ohos:text_size="15fp"
+                    ohos:left_margin="5vp"
+                    ohos:top_padding="15vp"
+                    />
+            </DirectionalLayout>
+
+        </DirectionalLayout>
+        <Image
+            ohos:height="1vp"
+            ohos:width="match_parent"
+            ohos:background_element="#cfcfcf"/>
+        <DirectionalLayout
+            ohos:height="50vp"
+            ohos:width="match_parent"
+            ohos:orientation="horizontal">
+            <Text
+                ohos:height="match_parent"
+                ohos:width="match_content"
+
+                ohos:text="结束时间"
+                ohos:top_padding="15vp"
+                ohos:text_size="15fp"
+                ohos:left_padding="10vp"
+                ohos:text_alignment="left"/>
+            <DirectionalLayout
+                ohos:height="match_parent"
+                ohos:width="match_content"
+                ohos:orientation="horizontal"
+                ohos:left_margin="100vp">
+
+                <TextField
+                    ohos:id="$+id:plan_end_time_year"
+                    ohos:height="match_parent"
+                    ohos:width="40vp"
+                    ohos:hint="输入"
+                    ohos:text_alignment="right"
+                    ohos:text_size="15fp"
+                    ohos:top_padding="15vp"
+                    />
+
+                <Text
+                    ohos:height="match_parent"
+                    ohos:width="match_content"
+                    ohos:hint="年"
+                    ohos:left_margin="5vp"
+                    ohos:text_size="15fp"
+                    ohos:top_padding="15vp"
+                    />
+
+                <TextField
+                    ohos:id="$+id:plan_end_time_moth"
+                    ohos:height="match_parent"
+                    ohos:width="30vp"
+                    ohos:hint="输入"
+                    ohos:text_alignment="right"
+                    ohos:left_margin="5vp"
+                    ohos:text_size="15fp"
+                    ohos:top_padding="15vp"
+                    />
+
+                <Text
+                    ohos:height="match_parent"
+                    ohos:width="match_content"
+                    ohos:hint="月"
+                    ohos:text_size="15fp"
+                    ohos:left_margin="5vp"
+                    ohos:top_padding="15vp"
+                    />
+
+                <TextField
+                    ohos:id="$+id:plan_end_time_day"
+                    ohos:height="match_parent"
+                    ohos:width="30vp"
+                    ohos:hint="输入"
+                    ohos:text_alignment="right"
+                    ohos:text_size="15fp"
+                    ohos:left_margin="5vp"
+                    ohos:top_padding="15vp"
+                    />
+
+                <Text
+                    ohos:height="match_parent"
+                    ohos:width="match_content"
+                    ohos:hint="日"
+                    ohos:text_size="15fp"
+                    ohos:left_margin="5vp"
+                    ohos:top_padding="15vp"
+                    />
+            </DirectionalLayout>
+        </DirectionalLayout>
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="#ffffff"
+        ohos:top_margin="10vp"
+        ohos:orientation="vertical">
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="计划内容："
+            ohos:text_size="20fp"
+            ohos:top_margin="10vp"
+            ohos:layout_alignment="horizontal_center"/>
+        <TextField
+            ohos:height="140vp"
+            ohos:width="300vp"
+            ohos:id="$+id:make_plan_info"
+            ohos:multiple_lines="true"
+            ohos:bottom_margin="10vp"
+            ohos:text_size="20fp"
+            ohos:top_margin="10vp"
+            ohos:layout_alignment="horizontal_center"
+            ohos:background_element="#ffeeee"
+           />
+    </DirectionalLayout>
+
+        <Button
+            ohos:height="100vp"
+            ohos:width="300vp"
+            ohos:id="$+id:sure_plan"
+            ohos:text_color="#ffffff"
+            ohos:text="确定计划"
+            ohos:text_size="20fp"
+            ohos:top_margin="120vp"
+            ohos:background_element="#11cd6e"
+            ohos:layout_alignment="center"/>
+
+
+</DirectionalLayout>

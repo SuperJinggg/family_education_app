@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:height="50vp"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:background_element="#ffffff">
+
+
+        <Text
+            ohos:height="match_parent"
+            ohos:width="0vp"
+            ohos:weight="1"
+            ohos:id="$+id:valuation_teacher_subject"
+
+            ohos:left_margin="65vp"
+            ohos:text_size="26fp"/>
+
+        <Text
+            ohos:height="match_parent"
+            ohos:width="0vp"
+            ohos:weight="1"
+            ohos:id="$+id:valuation_teacher_name"
+            ohos:left_margin="10vp"
+
+            ohos:text_size="26fp"/>
+
+    </DirectionalLayout>
+    <Image
+        ohos:height="1vp"
+        ohos:width="match_parent"
+        ohos:background_element="#cfcfcf"/>
+
+</DirectionalLayout>

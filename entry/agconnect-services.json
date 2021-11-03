@@ -1,0 +1,37 @@
+{
+	"agcgw_all":{
+		"CN":"connect-drcn.dbankcloud.cn",
+		"CN_back":"connect-drcn.hispace.hicloud.com",
+		"DE":"connect-dre.dbankcloud.cn",
+		"DE_back":"connect-dre.hispace.hicloud.com",
+		"RU":"connect-drru.dbankcloud.cn",
+		"RU_back":"connect-drru.hispace.hicloud.com",
+		"SG":"connect-dra.dbankcloud.cn",
+		"SG_back":"connect-dra.hispace.hicloud.com"
+	},
+	"client":{
+		"cp_id":"260086000302025651",
+		"product_id":"737518067793671506",
+		"client_id":"751419317274297408",
+		"client_secret":"[!00883211A4C854D61F7BE907568B1A8B54FA39C8AB7B4D3FE6CADACEE805F4EFBD7336E3E5BDA0EA68EDA21B6BE8CB799761A414E351AE98AF5FC512DF4F5855625E8AE29CFED5825521EB0C4EB5563971F4615221258926DDFEB79496EAFD5179]",
+		"project_id":"737518067793671506",
+		"app_id":"104904929",
+		"api_key":"[!00478D15F5952507C0FFCCC880DB377B436FE33A4D3943CDB6CE20A4FAB962C6C8D19CA4FD6DD702B206F527DB58BB464ADC0BCA744E04F626C12FF700E4EA9E3ED8A413FD63A4BB77738E675A96988900BC877B5FEE277F2512532857D2E61E0C7B5378F651CBE6BD5C049568CF89D0B3318AC4AFEE1246A116BE0E2AA302A63B]",
+		"package_name":"com.example.ateachingapplication"
+	},
+	"oauth_client":{
+		"client_id":"104904929",
+		"client_type":30
+	},
+	"app_info":{
+		"app_id":"751933906659322560",
+		"package_name":"com.example.ateachingapplication"
+	},
+	"code":{
+		"code1":"29E6505A1502ABBDE1B8885A633D5D8F",
+		"code2":"12A1B40E5531B80DABA6F97352F01352",
+		"code3":"80CDBCFE29BD9FD4D8FF5425E0599CFD",
+		"code4":"9A1ACDB9498605CA318B6CE20C1E73A8"
+	},
+	"configuration_version":"3.0"
+}

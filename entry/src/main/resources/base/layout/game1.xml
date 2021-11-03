@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:id="$+id:text1"
+        ohos:height="match_content"
+        ohos:width="300vp"
+        ohos:text="切西瓜游戏"
+        ohos:text_size="30fp"
+        ohos:text_color="black"
+        ohos:top_margin="10vp"
+        ohos:layout_alignment="horizontal_center"
+        />
+    <Text
+        ohos:id="$+id:text2"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="请在10秒内将西瓜切成块！"
+        ohos:text_size="18fp"
+        ohos:text_color="black"
+        ohos:layout_alignment="horizontal_center"
+        ohos:top_margin="10vp"/>
+    <TickTimer
+        ohos:id="$+id:tt"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text_size="30fp"
+        ohos:text_color="#ffffff"
+        ohos:top_margin="10vp"
+        ohos:layout_alignment="horizontal_center"
+        ohos:background_element="red"/>
+    <Image
+        ohos:id="$+id:img"
+        ohos:height="300vp"
+        ohos:width="300vp"
+        ohos:layout_alignment="horizontal_center"
+        ohos:scale_mode="inside"
+        ohos:image_src="$media:w1"/>
+
+    <ProgressBar
+        ohos:id="$+id:pb"
+        ohos:height="match_content"
+        ohos:width="300vp"
+        ohos:progress="0"
+        ohos:progress_hint_text="0%"
+        ohos:top_margin="10vp"
+        ohos:progress_hint_text_size="15fp"
+        ohos:min="0"
+        ohos:max="100"
+        ohos:progress_width="30vp"
+        ohos:layout_alignment="horizontal_center"
+        ohos:progress_hint_text_color="black"
+        ohos:progress_color="red"/>
+
+    <Button
+        ohos:id="$+id:bt"
+        ohos:height="76vp"
+        ohos:width="300vp"
+        ohos:text="点击开始"
+        ohos:text_size="45fp"
+        ohos:text_color="#ffffff"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text_alignment="center"
+        ohos:background_element="#21ad8f"
+        ohos:top_margin="50vp"/>
+
+</DirectionalLayout>

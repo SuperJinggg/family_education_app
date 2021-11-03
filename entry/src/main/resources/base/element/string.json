@@ -1,0 +1,28 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "倾心家教"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "teachingability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "teachingability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_TeachingAbility",
+      "value": "倾心家教"
+    }
+  ]
+}

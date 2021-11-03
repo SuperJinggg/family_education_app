@@ -1,0 +1,44 @@
+apply plugin: 'com.huawei.ohos.hap'
+apply plugin: 'com.huawei.ohos.decctest'
+//For instructions on signature configuration, see https://developer.harmonyos.com/cn/docs/documentation/doc-guides/ide_debug_device-0000001053822404#section1112183053510
+ohos {
+    signingConfigs {
+        release {
+            storeFile file('D:\\key\\family_education.p12')
+            storePassword '0000001D2CD3D8AAE708E9B52A3ADDA92F0DA870502E3807516420A1FF9AD850B0267A077F5B255BEA590B4F13'
+            keyAlias = 'family_education'
+            keyPassword '0000001D838D40FE647401CE29DDAB434FFC89760CE3F0E2D289AA60AAC5A4214499516326528649A8F56DF584'
+            signAlg = 'SHA256withECDSA'
+            profile file('D:\\key\\倾心家教Release.p7b')
+            certpath file('D:\\key\\倾心家教 (1).cer')
+        }
+    }
+    compileSdkVersion 5
+    defaultConfig {
+        compatibleSdkVersion 4
+    }
+    buildTypes {
+        release {
+            proguardOpt {
+                proguardEnabled false
+                rulesFiles 'proguard-rules.pro'
+            }
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar', '*.har'])
+    implementation 'com.zzrv5.zzrhttp:ZZRHttp:1.0.1'
+    implementation group: 'com.google.code.gson', name: 'gson', version: '2.8.5'
+    testImplementation 'junit:junit:4.13'
+    ohosTestImplementation 'com.huawei.ohos.testkit:runner:1.0.0.200'
+    // Add dependencies.
+    implementation 'com.huawei.agconnect:agconnect-core-harmony:1.0.0.300'
+}
+decc {
+    supportType = ['html', 'xml']
+}
+// Add the information to the bottom of the file.
+apply plugin: 'com.huawei.agconnect'

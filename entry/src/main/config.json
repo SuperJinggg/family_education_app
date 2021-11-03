@@ -1,0 +1,79 @@
+{
+  "app": {
+    "bundleName": "com.example.ateachingapplication",
+    "vendor": "example",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {
+    "default":{
+      "network": {
+        "cleartextTraffic": true
+      }
+    }
+  },
+  "module": {
+    "package": "com.example.ateachingapplication",
+    "name": "com.example.ateachingapplication.MyApplication",
+    "mainAbility": "com.example.ateachingapplication.MainAbility",
+    "deviceType": [
+      "phone"
+    ],
+    "reqPermissions": [
+      {
+        "name": "ohos.permission.ACCELEROMETER"
+      },
+      {
+        "name": "ohos.permission.LOCATION"
+      },
+      {
+        "name": "ohos.permission.LOCATION_IN_BACKGROUND"
+      },
+      {
+        "name": "ohos.permission.INTERNET"
+      }
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": false
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home",
+              "register",
+              "subjectsearch",
+              "teachermessage",
+              "forgetpasswordslice"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "name": "com.example.ateachingapplication.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "$string:entry_MainAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.ateachingapplication.TeachingAbility",
+        "icon": "$media:icon",
+        "description": "$string:teachingability_description",
+        "label": "$string:entry_TeachingAbility",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ]
+  }
+}

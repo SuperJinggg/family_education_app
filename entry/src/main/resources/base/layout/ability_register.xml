@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="#eeeeee"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:layout_alignment="horizontal_center"
+        ohos:top_margin="130vp"
+        ohos:text="REGISTER"
+        ohos:text_color="#35a9d0"
+        ohos:text_size="25fp"/>
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:layout_alignment="horizontal_center"
+        ohos:top_margin="20vp"
+        ohos:orientation="horizontal">
+        <Image
+            ohos:height="40vp"
+            ohos:width="40vp"
+            ohos:scale_mode="inside"
+            ohos:image_src="$media:account"/>
+        <TextField
+            ohos:id="$+id:register_phonenum"
+            ohos:height="40vp"
+            ohos:width="200vp"
+            ohos:text_size="20fp"
+            ohos:text_alignment="vertical_center"
+            ohos:background_element="#ffeeee"
+            ohos:hint="请输入手机号"/>
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:orientation="horizontal"
+        ohos:layout_alignment="horizontal_center"
+        ohos:top_margin="15vp">
+        <Image
+            ohos:height="40vp"
+            ohos:width="40vp"
+            ohos:scale_mode="inside"
+            ohos:image_src="$media:password"/>
+        <TextField
+            ohos:id="$+id:register_password"
+            ohos:height="40vp"
+            ohos:width="200vp"
+            ohos:hint="请输入密码"
+            ohos:text_size="20fp"
+            ohos:text_alignment="vertical_center"
+            ohos:text_input_type="pattern_password"
+            ohos:background_element="#ffeeee"/>
+
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:orientation="horizontal"
+        ohos:layout_alignment="horizontal_center"
+        ohos:top_margin="15vp">
+        <Image
+            ohos:height="40vp"
+            ohos:width="40vp"
+            ohos:scale_mode="inside"
+            ohos:image_src="$media:surepswd"/>
+        <TextField
+            ohos:id="$+id:sure_password"
+            ohos:height="40vp"
+            ohos:width="200vp"
+            ohos:hint="请确认密码"
+            ohos:text_size="20fp"
+            ohos:text_alignment="vertical_center"
+            ohos:text_input_type="pattern_password"
+            ohos:background_element="#ffeeee"/>
+
+
+
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:top_margin="20vp"
+        ohos:orientation="horizontal"
+        ohos:layout_alignment="horizontal_center">
+        <TextField
+            ohos:height="40vp"
+            ohos:width="120vp"
+            ohos:id="$+id:code"
+            ohos:background_element="#ffeeee"/>
+        <Button
+            ohos:id="$+id:get_code"
+            ohos:height="40vp"
+            ohos:width="120vp"
+            ohos:left_margin="0vp"
+            ohos:text="获取验证码"
+            ohos:background_element="#35a9d0"
+            ohos:text_color="#ffffff"
+            ohos:text_alignment="center"
+            ohos:text_size="18fp"/>
+    </DirectionalLayout>
+
+
+    <Button
+        ohos:id="$+id:register"
+        ohos:height="45vp"
+        ohos:width="240vp"
+        ohos:background_element="#35a9d0"
+        ohos:text_size="22fp"
+        ohos:text_color="#ffffff"
+        ohos:top_margin="30vp"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="注册"/>
+
+    <Button
+        ohos:id="$+id:back_login"
+        ohos:height="45vp"
+        ohos:width="240vp"
+        ohos:text_size="22fp"
+        ohos:text_color="#35a9d0"
+        ohos:top_margin="20vp"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="返回登录"/>
+
+</DirectionalLayout>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:height="20vp"
+        ohos:width="match_parent"
+        ohos:background_element="#cfcfcf">
+        <Image
+            ohos:id="$+id:back"
+            ohos:height="18vp"
+            ohos:width="match_content"
+            ohos:image_src="$media:back"
+            ohos:top_margin="1vp"
+            ohos:layout_alignment="left"
+            ohos:left_margin="5vp"
+            ohos:scale_mode="inside"/>
+    </DirectionalLayout>
+    <Image
+        ohos:id="$+id:select_book"
+        ohos:height="320vp"
+        ohos:width="match_parent"
+        ohos:scale_mode="stretch"
+        />
+    
+    <DirectionalLayout
+        ohos:height="105vp"
+        ohos:background_element="#ff3e3e"
+        ohos:width="match_parent"
+        ohos:orientation="vertical">
+        <Text
+            ohos:height="30vp"
+            ohos:width="match_content"
+            ohos:layout_alignment="left"
+            ohos:top_margin="10vp"
+            ohos:left_margin="15vp"
+            ohos:text_size="20fp"
+            ohos:text="当前价"
+            ohos:text_color="#ffffff"/>
+
+        <DirectionalLayout
+            ohos:height="60vp"
+            ohos:width="match_parent"
+            ohos:orientation="horizontal">
+
+            <Text
+                ohos:height="match_parent"
+                ohos:width="match_content"
+                ohos:layout_alignment="left"
+                ohos:left_margin="15vp"
+                ohos:text_size="30fp"
+                ohos:text="￥999.99"
+                ohos:text_color="#ffffff"/>
+            <Text
+                ohos:height="match_parent"
+                ohos:width="match_content"
+                ohos:left_margin="15vp"
+                ohos:text="首单折后￥"
+                ohos:text_size="22fp"
+                ohos:background_element="#ffffff"
+                ohos:text_color="#ff3e3e"
+                ohos:layout_alignment="top"
+                />
+            <Text
+                ohos:id="$+id:select_book_price"
+                ohos:height="55vp"
+                ohos:width="match_content"
+                ohos:background_element="#ffffff"
+                ohos:text_size="30fp"
+                ohos:layout_alignment="top"
+                ohos:text_color="#ff3e3e"/>
+        </DirectionalLayout>
+    </DirectionalLayout>
+    <Text
+        ohos:id="$+id:select_book_name"
+        ohos:height="70vp"
+        ohos:width="match_parent"
+        ohos:text_size="30fp"
+        ohos:multiple_lines="true"
+        ohos:left_margin="20vp"
+        ohos:top_margin="10vp"/>
+
+    <DirectionalLayout
+        ohos:height="50vp"
+        ohos:width="match_parent"
+
+        ohos:orientation="horizontal">
+        <TextField
+            ohos:id="$+id:select_book_num"
+            ohos:height="50vp"
+            ohos:width="100vp"
+            ohos:text_size="15fp"
+            ohos:hint="请填入购买数量"
+            ohos:text_alignment="right"
+            ohos:left_margin="50vp"
+
+            ohos:top_margin="10vp"/>
+        <Text
+            ohos:height="50vp"
+            ohos:width="match_content"
+            ohos:text_size="18fp"
+            ohos:text="本"
+            ohos:text_color="black"
+            ohos:left_margin="10vp"
+            ohos:top_margin="10vp"/>
+
+    </DirectionalLayout>
+
+
+    <Button
+        ohos:id="$+id:sure_select_book"
+        ohos:height="50vp"
+        ohos:width="260vp"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text_alignment="center"
+        ohos:text_size="18fp"
+        ohos:text_color="#ffffff"
+        ohos:text="去结算"
+        ohos:background_element="#ea6700"
+        ohos:top_margin="15vp"
+        />
+
+
+
+
+</DirectionalLayout>

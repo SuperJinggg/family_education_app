@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:height="51vp"
+        ohos:width="match_parent"
+        ohos:background_element="#ffc700"
+        ohos:orientation="horizontal">
+        <!--返回箭头-->
+        <Image
+            ohos:height="30vp"
+            ohos:width="0vp"
+            ohos:id="$+id:back"
+            ohos:weight="0.5"
+            ohos:top_margin="10vp"
+            ohos:scale_mode="inside"
+            ohos:left_margin="10vp"
+            ohos:image_src="$media:back"/>
+        <DirectionalLayout
+            ohos:height="50vp"
+            ohos:width="0vp"
+            ohos:weight="5"
+            ohos:orientation="vertical">
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:layout_alignment="center"
+                ohos:text_size="22vp"
+                ohos:text_color="#ffffff"
+                ohos:top_margin="12vp"
+                ohos:text="游戏列表"
+                />
+        </DirectionalLayout>
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:height="100vp"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal">
+
+        <Image
+            ohos:height="60vp"
+            ohos:width="0vp"
+            ohos:weight="0.5"
+            ohos:image_src="$media:game1"
+            ohos:scale_mode="stretch"
+            ohos:layout_alignment="vertical_center"
+            ohos:left_margin="20vp"/>
+
+        <Text
+            ohos:height="60vp"
+            ohos:width="0vp"
+            ohos:weight="1.5"
+            ohos:text="切西瓜"
+            ohos:text_size="22fp"
+            ohos:left_margin="20vp"
+            ohos:layout_alignment="center"/>
+
+        <Button
+            ohos:id="$+id:select_game1"
+            ohos:height="60vp"
+            ohos:width="0vp"
+            ohos:weight="1"
+            ohos:text="开始游戏"
+            ohos:background_element="#4d90fe"
+            ohos:text_size="16fp"
+            ohos:text_alignment="center"
+            ohos:top_margin="25vp"
+            ohos:layout_alignment="right"
+            ohos:right_margin="20vp"/>
+
+    </DirectionalLayout>
+
+</DirectionalLayout>

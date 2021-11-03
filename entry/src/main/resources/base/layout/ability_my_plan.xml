@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:height="51vp"
+        ohos:width="match_parent"
+        ohos:background_element="#11cd6e"
+        ohos:orientation="horizontal">
+        <Image
+            ohos:id="$+id:back"
+            ohos:height="30vp"
+            ohos:width="0vp"
+            ohos:weight="0.5"
+            ohos:top_margin="10vp"
+            ohos:left_margin="10vp"
+            ohos:image_src="$media:back"
+            ohos:scale_mode="inside"/>
+        <DirectionalLayout
+            ohos:height="50vp"
+            ohos:width="0vp"
+            ohos:weight="5"
+            ohos:orientation="vertical">
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:layout_alignment="center"
+                ohos:text_size="20fp"
+                ohos:text_color="#ffffff"
+                ohos:top_margin="14vp"
+                ohos:right_margin="17vp"
+                ohos:text="学习计划与总结"/>
+        </DirectionalLayout>
+    </DirectionalLayout>
+    <DirectionalLayout
+        ohos:height="50vp"
+        ohos:width="match_parent"
+        ohos:background_element="#ffffff"
+        ohos:orientation="horizontal">
+        <Text
+            ohos:height="match_parent"
+            ohos:width="0vp"
+            ohos:weight="1"
+            ohos:text="计划"
+
+            ohos:text_color="#cfcfcf"
+            ohos:text_alignment="center"
+            ohos:text_size="15fp"/>
+
+        <Text
+            ohos:height="match_parent"
+            ohos:width="0vp"
+            ohos:weight="1"
+            ohos:text="开始时间"
+
+            ohos:text_color="#cfcfcf"
+            ohos:text_alignment="center"
+            ohos:text_size="15fp"/>
+
+    </DirectionalLayout>
+    <ListContainer
+        ohos:id="$+id:listcontainer_plan"
+        ohos:height="0vp"
+        ohos:width="match_parent"
+        ohos:background_element="#ffffff"
+        ohos:weight="1"/>
+
+
+
+    <DirectionalLayout
+        ohos:id="$+id:make_plan"
+        ohos:height="100vp"
+        ohos:width="300vp"
+        ohos:orientation="horizontal"
+        ohos:layout_alignment="horizontal_center"
+        ohos:background_element="#ffe596">
+
+        <Button
+
+            ohos:height="100vp"
+            ohos:width="200vp"
+            ohos:text="制定计划"
+            ohos:text_size="25fp"/>
+
+        <Image
+            ohos:height="100vp"
+            ohos:width="100vp"
+            ohos:scale_mode="stretch"
+            ohos:image_src="$media:makeplan"/>
+    </DirectionalLayout>
+
+</DirectionalLayout>

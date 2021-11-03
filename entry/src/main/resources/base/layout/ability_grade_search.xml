@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:top_margin="1vp"
+    ohos:background_element="#ffffff"
+    ohos:orientation="vertical">
+    <!--间隔线-->
+    <Image
+        ohos:height="1vp"
+        ohos:width="match_parent"
+        ohos:background_element="#cfcfcf"/>
+    <!--小学-->
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:top_margin="5vp"
+        ohos:orientation="horizontal">
+        <!--年级-->
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="0vp"
+            ohos:orientation="vertical"
+            ohos:weight="1">
+            <Button
+                ohos:height="36vp"
+                ohos:width="100vp"
+                ohos:id="$+id:grade1"
+                ohos:text="小学"
+                ohos:text_alignment="center"
+                ohos:text_size="20fp"
+                ohos:layout_alignment="horizontal_center"
+                ohos:text_color="#8b8b7a"/>
+
+            <Button
+                ohos:height="36vp"
+                ohos:width="100vp"
+                ohos:id="$+id:grade2"
+                ohos:text="初中"
+                ohos:text_alignment="center"
+                ohos:text_size="20fp"
+                ohos:layout_alignment="horizontal_center"
+                ohos:text_color="#8b8b7a"/>
+
+            <Button
+                ohos:height="36vp"
+                ohos:width="100vp"
+                ohos:id="$+id:grade3"
+                ohos:text="高中"
+                ohos:text_alignment="center"
+                ohos:text_size="20fp"
+                ohos:layout_alignment="horizontal_center"
+                ohos:text_color="#8b8b7a"/>
+
+
+        </DirectionalLayout>
+        <!--自加代码-->
+    </DirectionalLayout>
+    <!--确定-->
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:top_margin="30vp"
+        ohos:orientation="vertical">
+        <Button
+            ohos:height="40vp"
+            ohos:width="match_parent"
+            ohos:id="$+id:sure_grade_select"
+            ohos:background_element="#11cd6e"
+            ohos:text_color="#ffffff"
+            ohos:text="确定"
+            ohos:text_size="20fp"
+            ohos:text_alignment="center"
+            ohos:layout_alignment="center"/>
+    </DirectionalLayout>
+
+</DirectionalLayout>

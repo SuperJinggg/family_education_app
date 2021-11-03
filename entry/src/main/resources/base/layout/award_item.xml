@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="100vp"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+    <DirectionalLayout
+        ohos:height="35vp"
+        ohos:width="match_parent"
+        ohos:background_element="#3e85ff"
+        ohos:orientation="horizontal">
+
+        <Text
+            ohos:height="33vp"
+            ohos:width="0vp"
+            ohos:weight="1"
+            ohos:text="奖学券"
+            ohos:text_color="#ffffff"
+            ohos:text_size="15fp"
+            ohos:left_margin="10vp"
+
+            ohos:layout_alignment="vertical_center"/>
+
+        <Text
+            ohos:height="33vp"
+            ohos:width="0vp"
+            ohos:weight="1"
+            ohos:text="金额"
+            ohos:text_color="#ffffff"
+            ohos:layout_alignment="vertical_center"
+            ohos:text_size="15fp"/>
+
+        <Text
+            ohos:height="33vp"
+            ohos:width="0vp"
+            ohos:weight="1"
+            ohos:text="到期时间"
+            ohos:text_color="#ffffff"
+            ohos:text_size="15fp"
+            ohos:left_margin="10vp"
+            ohos:layout_alignment="vertical_center"/>
+
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:height="75vp"
+        ohos:background_element="#e8e8e8"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal">
+
+        <Image
+            ohos:height="67vp"
+            ohos:width="50vp"
+            ohos:left_margin="10vp"
+            ohos:layout_alignment="vertical_center"
+            ohos:image_src="$media:myaward"
+            ohos:scale_mode="inside"/>
+
+        <Text
+            ohos:id="$+id:award_value"
+            ohos:height="match_content"
+            ohos:width="0vp"
+            ohos:weight="1"
+            ohos:layout_alignment="vertical_center"
+            ohos:text_size="20vp"
+            ohos:text_color="black"
+            ohos:left_margin="50vp"/>
+
+        <Text
+            ohos:id="$+id:award_deadline"
+            ohos:height="match_content"
+            ohos:width="0vp"
+            ohos:weight="1"
+            ohos:layout_alignment="vertical_center"
+            ohos:text_size="20fp"
+            ohos:text_color="black"/>
+
+    </DirectionalLayout>
+
+</DirectionalLayout>

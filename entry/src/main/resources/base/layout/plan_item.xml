@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:height="60vp"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:background_element="#ffffff">
+
+        <Text
+            ohos:height="match_parent"
+            ohos:width="0vp"
+            ohos:weight="1"
+            ohos:text="计划"
+            ohos:text_size="18fp"
+            ohos:text_alignment="right"
+            ohos:text_color="black"
+            ohos:top_padding="8vp"/>
+
+        <Text
+            ohos:id="$+id:plan_num"
+            ohos:height="match_parent"
+            ohos:width="0vp"
+            ohos:weight="1"
+            ohos:text_size="18fp"
+            ohos:text_alignment="left"
+            ohos:top_padding="8vp"
+            ohos:text_color="black"/>
+
+        <Text
+            ohos:id="$+id:plan_start_time_check"
+            ohos:height="match_parent"
+            ohos:width="0vp"
+            ohos:weight="2"
+            ohos:text_alignment="center"
+            ohos:text_size="18fp"
+            ohos:top_padding="8vp"
+            ohos:text_color="black"/>
+
+    </DirectionalLayout>
+    <Image
+        ohos:height="1vp"
+        ohos:width="match_parent"
+        ohos:background_element="#cfcfcf"/>
+
+</DirectionalLayout>
